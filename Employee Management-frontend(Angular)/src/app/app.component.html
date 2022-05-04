@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLinkActive="active" routerLink="employees" class="nav-link">Employee List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLinkActive="active" routerLink="create-employee" class="nav-link">Add Employee</a>
+    </li>
+  </ul>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer-1" >
+  <div class="container">
+      <span>All Rights Reserved 2022 @Maarouf_Ouassime</span>
+  </div>
+</footer>
